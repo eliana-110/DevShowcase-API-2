@@ -5,7 +5,7 @@
   "description": "API REST para perfis, projetos, tecnologias e opiniões",
   "engines": { "node": ">=22.13.0" },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node servidor.js"
     "dev": "node --watch src/server.js",
     "test": "node --test"
   },
