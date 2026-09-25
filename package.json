@@ -5,8 +5,8 @@
   "description": "API REST para perfis, projetos, tecnologias e opiniões",
   "engines": { "node": ">=22.13.0" },
   "scripts": {
-    "start": "node servidor.js",
-    "dev": "node --watch servidor.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
     "test": "node --test"
   },
   "dependencies": { "express": "^5.1.0", "pg": "^8.16.3" }
